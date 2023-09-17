@@ -1,1 +1,1 @@
-Sitemap: https://btbroderick.github.io/sitemap.xml
+Sitemap: https://github.com/btbroderick/btbroderick.github.io/sitemap.xml
