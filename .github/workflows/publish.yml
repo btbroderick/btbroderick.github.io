@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - main
-name: Quarto and Connect Publish New
+name: Quarto and Connect Publish New new
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
