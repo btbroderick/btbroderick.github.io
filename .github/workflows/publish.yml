@@ -36,12 +36,14 @@ jobs:
           target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
 on:
   workflow_dispatch:
   push:
-    branches: ['main']
-      
- 
+    branches:
+      - main
+name: Quarto and Connect Publish
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
