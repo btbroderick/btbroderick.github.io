@@ -38,12 +38,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
+name: Quarto and Connect Publish
 on:
   workflow_dispatch:
   push:
     branches:
       - main
-
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
